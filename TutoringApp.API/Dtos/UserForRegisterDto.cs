@@ -12,7 +12,7 @@ namespace TutoringApp.API.Dtos
 		public string Username { get; set; }
 
 		[Required]
-		[StringLength(8, MinimumLength = 4, ErrorMessage = "Specify between 4 and 8 chars)")]
+		[StringLength(8, MinimumLength = 4, ErrorMessage = "Specify between 4 and 8 chars")]
 		public string Password { get; set; }
 
 	}
