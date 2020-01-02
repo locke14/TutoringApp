@@ -12,6 +12,7 @@ namespace TutoringApp.API.Data
 
 		public DbSet<Models.Value> Values { get; set; }
 		public DbSet<Models.User> Users { get; set; }
+		public DbSet<Models.Photo> Photos { get; set; }
 
 	}
 }
